@@ -11,9 +11,9 @@ use yii\web\AssetBundle;
 class DuckyAsset extends AssetBundle
 {
 
-    public $sourcePath = '@bower/ducky';
+    public $sourcePath = '@bower/ducky/lib';
     public $basePath = '@webroot/assets';
-    public $js = ['lib/ducky.browser.js'];
+    public $js = ['ducky.js'];
     public $depends = ['yii\web\JqueryAsset'];
 
 }
